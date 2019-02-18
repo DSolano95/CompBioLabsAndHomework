@@ -1,0 +1,12 @@
+git diff - to show changes 
+git.ignore - it will contain the names of fiels you want to ignore.
+Rm(list = ls ()) in the console to clear the memory. 
+
+Git pull push commands:
+git push -u - to push something.
+git pull/ git fetch.
+git commit
+
+cd - to go into a file path
+cd ..- to reverse.
+history- shows your history.
