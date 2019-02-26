@@ -1,18 +1,27 @@
- #These lines of code from 2-6 name two variables. Bags of cheetos and people. They were renamed from myVec and myVec1 to Cheetos and People.
-myVec <- c(1,2,3,4,5)
-Cheetos <- myVec
+#1-These lines of code from 2-4 name two variables. Bags of cheetos and people. They were named cheetos and people. 
+Cheetos <- 5
 
-myVec1 <- c(1,2,3,4,5,6,7,8)
-People <- myVec1
+People <- 8
 
-BagsofCHeetos <- c(1,2,3,4,5)
-People <- c(1,2,3,4,5,6,7,8)
+
 
  #lab Step #5 Each person will eat .4 bags of cheetos 
 EachPersonWillEatxamountofBagsofCHeetos <- .4
 
  # Now I will use the variables to calculate how the expected # bags of chips that will be leftover. I ate .4 myself.
-EachPersonWillEatxamountofBagsofCHeetos == BagsofCHeetos
+Totaleaten <- EachPersonWillEatxamountofBagsofCHeetos * People
+
+Leftover <- Cheetos - Totaleaten
+
+Chipnumber <- 5 
+Guests <- 8 
+
+Averageeaten <- .4 
+
+Totalchipseaten <- (Guests + 1) * Averageeaten
+Leftoverchips <- Chipnumber- Totalchipseaten
+
+
 
 Self <- c(7,6,5,1,2,3,4)
 Penny <- c(5,7,6,3,1,2,4)
@@ -63,7 +72,7 @@ myMat[5,]
 myMat[6,]
 
 #Access rankings for Jenny, Penny, and Stewie for just episodes IV and VI.
-myMat[4,2]
+myMat[c(4,6),2]
 myMat[6,2]
 
 myMat[4,3]
@@ -71,3 +80,21 @@ myMat[6,3]
 
 myMat[4,5]
 myMat[6,5]
+
+# 23 switching Lennys rankings for episodes II and
+LennyII <- myMat[2,4] 
+
+
+
+
+# Adding a new variable for Lennys ranking of episode 
+myMat[2,4] <- myMat[5,4]
+
+
+#Acessing elements, rows, and columns by number.
+myMat[3,2]
+
+(myMat["III","Penny"])
+  
+# Undoing the switch made in step #23
+
