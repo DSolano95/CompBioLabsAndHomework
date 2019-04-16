@@ -1,0 +1,35 @@
+---
+title: "Untitled"
+author: "Devyn Solano"
+date: "April 15, 2019"
+output: html_document
+---
+---
+title: "Comp_Bio_Project_Solano_#8"
+author: "Devyn Solano"
+date: "April 13, 2019"
+output: html_document
+---
+# Island Biodiversity for Native Versus Exotic Specie
+
+## Objective
+  The overall objective of the project was to investigate whether the exotic/invasive species had a higher level of fitness when compared to the native species in the studied environments. Examining which islands either species of plant will have a fitness advantage on by interpreting immigration, emigration, and species turnover with respect to island size and isolation from the mainland.   
+
+## Site Information
+  The project investigated a archipelago on the north island of New Zealand, specifically in the Wellington Bay area. Due to somewhat recent earthquakes the small islands (around 33.5 M^2) were created and due to their large distrobution of isolation from the mainland, they are an ideal environment for studying island biogeography. The  
+
+## Dataset information
+  The dataset is on the smaller side, 40 rows by 10 columns. The study was conducted over a 8 year span. 34 species in all, 18 exotic and 16 native. The biggest problem found with the data is that it is on the smaller side even though it consisted of a survey of 39 islands. Realistically it would be ideal to see this repeated several times so it can be observed perhaps over a period of ten years with five years of rest between each period to observe how the species diversity will change over the times. 
+  
+## Methodology 
+The experiment took place over 8 years from 2005 through 2012. Data was collected in spring (October-November) and summer (December-February). Species turnover was calculated as the sum of total colonization events plus the total number of extinction events. 
+  
+## Biological representation and real world application
+  The dataset can be used to guauge species diversity for the south-west Pacific Ocean environment. How exotic/invasive species will interact with native species in a geologically young area. The information can be used to shape how species island biogeography will change over time and how the dominant species will colonize and exist in a habitat, and simply how the dominant species became the native species. 
+
+## Statistical Tests
+I will calculate species turnover for the islands in general. At least one graph will be presented showing the relationship between colonization events, extinction events, species turnover, cross referenced by island size. Species  diversity  will  also  be calculated along  with  both  a  T  and  P  test. Also a determination will be made for which species (native or exotic) has a higher fitness and which will likely become the dominant species of the islands over time. 
+
+## Works Cited
+**[Dryad Data](https://doi.org/10.5061/dryad.5f695)**
+**[A Theory of Island Biogeography for Exotic Species-Original Publication](https://www.journals.uchicago.edu/doi/10.1086/682934)**
