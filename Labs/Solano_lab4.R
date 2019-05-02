@@ -24,16 +24,17 @@ for ( i in seq(1,7)) {
   print(Population)
 }
 
-#4 Unsuccessful attempts to write a for loop with the discrete-time logistic growth equation.
+#4 Successful attempt to write a for loop with the discrete-time logistic growth equation.
 n <- 2500
 k <- 10000
 r <- 0.8
 n[t] = n[t-1] + ( r * n[t-1] * (K - n[t-1])/K )
-for (i in seq(1, 12)){
-  n[t] = n[t-1] + ( r * n[t-1] * (k - n[t-1])/k )
-  print(n)
-}
 
+for (i in seq(2, 12)) {
+  pop = n + ( r * n * (k - n)/k )
+  n <- pop
+  print(pop)  
+}
    # this one I got to work and print out a number but only for a single instance and not over 12 time periods.
 for (i in seq(1, 12)) {
   pop = n + ( r * n * (k - n)/k )
